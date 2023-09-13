@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineSearch } from "react-icons/ai";
-import Button from '../Button';
 import SingleUser from "../SingleUser";
+import Button from '../Button';
 
 const Users = ({data}) => {
   return (
