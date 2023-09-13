@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.app {
+  width: 500px;
+  margin: auto;
+  margin-top: 3rem;
+  border: 1px solid #cccc;
+  padding: 1.7rem;
+  border-radius: 5px;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+.searchItem {
+  display: flex;
+  width: 400px;
+  border-bottom: 2px solid #eee;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  color: rgb(129, 126, 126, 0.6);
+  font-size: 18px;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+.singleBox {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 4px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid rgb(129, 126, 126, 0.1);
+  border-radius: 3px;
+}
+.iconChecked {
+  height: 22px;
+  width: 22px;
+  color: rgb(75,181,67);
+}
+.iconCircle {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #c0c0c0;
+  border-radius: 50%;
+}
+.leftItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userIcon,
+.searchIcon {
+  margin-right: 0.5rem;
+}
+.gray-color {
+  color: #c0c0c0;
+}
+
+footer {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+button {
+  border: none;
+  padding: 0.7em 3em;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+}
+.cancel {
+  color: #eeee;
+  border: 1px solid #eee;
+  background-color: white;
+}
+.save {
+  color: white;
+  background: #89d3e8;
+  background: linear-gradient(135deg, #89d3e8, #4d68bc);
+  text-transform: uppercase;
+}
+@media screen and (max-width: 630px) {
+  .app {
+    width: 250px;
+  }
+  footer,
+  .searchItem,
+  .singleBox {
+    width: 200px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  button {
+    padding: 0.3em 1em;
+  }
+}
